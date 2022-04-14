@@ -94,7 +94,84 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="C-的经典案例"><a href="#C-的经典案例" class="headerlink" title="C++的经典案例"></a>C++的经典案例</h2><p><img src="/../images/Helloworld.png"><br>上面这张图是一个简单C++程序的构成，它的输出结果如下图所示：<br><img src="/../images/h_debug.png"><br>是不是感觉到很神奇？<br>接下来我们逐一了解每个部分的作用</p>
-<h2 id="1-头文件"><a href="#1-头文件" class="headerlink" title="1.头文件"></a>1.头文件</h2><p>在上述例子中，第一行是一句<strong>include<iostream></strong> ，这一句的作用是为了引入一个文件，它是我们写C++程序必不可少的一个部分<br>我们在这称它为头文件。<br>在头文件中包涵了我们使用的方法(如输入，输出函数)，如果我们没有包含头文件，编译器会报出“<em><strong>为找到xxx（方法）的定义</strong></em>”。</p>
+<h2 id="1-头文件"><a href="#1-头文件" class="headerlink" title="1.头文件"></a>1.头文件</h2><p><img src="/../images/head.png"><br>在上述图片中， ，这一句的作用是为了引入一个文件，它是我们写C++程序必不可少的一个部分<br>我们在这称它为头文件（如<strong>iostream</strong>）。<br>在头文件中包涵了我们使用的方法(如输入，输出函数)，如果我们没有包含头文件，编译器会报出“<em><strong>为找到xxx（方法）的定义</strong></em>”。</p>
+<h3 id="头文件的风格"><a href="#头文件的风格" class="headerlink" title="头文件的风格"></a>头文件的风格</h3><p>在C++中，头文件有着C风格和C++风格的不同，这俩者在功能上是没有区别的，只不过在引入的时候名字有所不同。<br>下面将列出两种风格的常用头文件：</p>
+<table>
+<thead>
+<tr>
+<th><strong>C</strong></th>
+<th><strong>C++</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;assert.h&gt;</td>
+<td>cassert</td>
+</tr>
+<tr>
+<td>&lt;ctype.h&gt;</td>
+<td>cctype</td>
+</tr>
+<tr>
+<td>&lt;errno.h&gt;</td>
+<td>cerrno</td>
+</tr>
+<tr>
+<td>&lt;limits.h&gt;</td>
+<td>climits</td>
+</tr>
+<tr>
+<td>&lt;math.h&gt;</td>
+<td>cmath</td>
+</tr>
+<tr>
+<td>&lt;setjmp.h&gt;</td>
+<td>csetjmp</td>
+</tr>
+<tr>
+<td>&lt;signal.h&gt;</td>
+<td>csignal</td>
+</tr>
+<tr>
+<td>&lt;stdarg.h&gt;</td>
+<td>cstdarg</td>
+</tr>
+<tr>
+<td>&lt;stdbool.h&gt;</td>
+<td>null</td>
+</tr>
+<tr>
+<td>&lt;stddef.h&gt;</td>
+<td>cstddef</td>
+</tr>
+<tr>
+<td>&lt;stdint.h&gt;</td>
+<td>cstdint</td>
+</tr>
+<tr>
+<td>&lt;stdio.h&gt;</td>
+<td>cstdio</td>
+</tr>
+<tr>
+<td>&lt;stdlib.h&gt;</td>
+<td>cstdlib</td>
+</tr>
+<tr>
+<td>&lt;string.h&gt;</td>
+<td>cstring</td>
+</tr>
+<tr>
+<td>&lt;time.h&gt;</td>
+<td>ctime</td>
+</tr>
+<tr>
+<td><em><strong>此表只是为了演示两者风格区别</strong></em></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="2-命名空间"><a href="#2-命名空间" class="headerlink" title="2.命名空间"></a>2.命名空间</h2><p><img src="/../images/namespace.png"><br>命名空间的这一概念是C与C++的一大区别，现在来简单说明一下这个概念：<br>xx学校x年级有俩名学生，他们的名字都是叫 <em>小明</em> ，那我们如何分辨哪个小明才是我们所想的那个小明呢？<br>这时的我们，就可以通过班级来分辨。<br>在上诉例子中，班级的作用就相当于命名空间，将两个同名的对象分开。</p>
+<p>在c++中，所有的头文件都使用了命名空间。</p>
+<h2 id="3-main函数"><a href="#3-main函数" class="headerlink" title="3.main函数"></a>3.main函数</h2><p><img src="/../images/main.png"><br><strong>main</strong> 函数我们称之为主函数，我们可以在这里面实现我们想要的功能。<br>如上图中的 <code>cout&lt;&lt;&quot;Hello World!&quot;;</code><br>该代码的作用是向屏幕中输出<em>hello world</em>这一串字符</p>
+<h2 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h2><p>1.C++的执行顺序是从上到下<br>2.对于C++来说，一条语句结束的标准是**;**的出现，但是也有一些情况不需要。<br>  如 if,for…这些。<br>3.在刚开始的学习过程中，我们不需要见到什么就要完全钻明白，这是对时间的一种浪费。<br>  有些东西的理解需要时间和技术的沉淀。</p>
 
       
     </div>
