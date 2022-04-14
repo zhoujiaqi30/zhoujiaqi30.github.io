@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-14T12:30:04.438Z</updated>
+  <updated>2022-04-14T13:02:04.527Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++的基本类型</title>
+    <link href="http://example.com/2022/04/14/C-%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/2022/04/14/C-%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/</id>
+    <published>2022-04-14T12:36:09.000Z</published>
+    <updated>2022-04-14T13:02:04.527Z</updated>
+    
+    <content type="html"><![CDATA[<p>在C++中，内置了许多的基本类型，接下来我将逐一介绍这些类型</p><h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>为了更好的方便讲解，这里先简单介绍C++中的输出 <code>cout&lt;&lt;</code> ,输入 <code>cin&gt;&gt;</code> 。</p><h3 id="输出cout"><a href="#输出cout" class="headerlink" title="输出cout"></a>输出<code>cout</code></h3><p>该对象的作用是将数据显示到屏幕上<br>注意箭头<strong>朝左</strong><br><code>cout&lt;&lt;</code></p><h3 id="输入cin"><a href="#输入cin" class="headerlink" title="输入cin"></a>输入<code>cin</code></h3><p>该对象的作用是将从键盘读取的数据存入变量中<br>注意箭头<strong>朝右</strong><br><code>cin&gt;&gt;</code></p><h2 id="1-整型"><a href="#1-整型" class="headerlink" title="1.整型"></a>1.整型</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在C++中，内置了许多的基本类型，接下来我将逐一介绍这些类型&lt;/p&gt;
+&lt;h2 id=&quot;前置知识&quot;&gt;&lt;a href=&quot;#前置知识&quot; class=&quot;headerlink&quot; title=&quot;前置知识&quot;&gt;&lt;/a&gt;前置知识&lt;/h2&gt;&lt;p&gt;为了更好的方便讲解，这里先简单介绍C++中的输出</summary>
+      
+    
+    
+    
+    <category term="C++基础" scheme="http://example.com/categories/C-%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="C++" scheme="http://example.com/tags/C/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>c++编程的开始</title>
